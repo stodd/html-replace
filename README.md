@@ -45,6 +45,6 @@ The reason for doing this is so that organic traffic will go to the first exampl
 ## Building
 I didn't want to write a whole grunt build script for such a simple thing so I just made a script that gets YUI Compressor and runs it against any js files in the src folder. It will output the file minified with -min appended.
 
-Ensure that java and wget are available on your path.
+Ensure that `java` and `wget` are available on your path.
 Run the build.sh script in bin and your files will be minified using YUI Compressor. If you do not have compressor the script will fetch it for you.
 
