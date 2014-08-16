@@ -14,8 +14,8 @@ The script introduces a new parameter to the request called 'replace'. The value
 	replace=[text_to_find]:[text_to_replace]
 
 A page with the following url:
-	``
-	http://domain.com/page1.html\n
+
+	http://domain.com/page1.html
 	|================================|
 	|................................|
 	|...Call us!.....................|
@@ -24,11 +24,11 @@ A page with the following url:
 	|................................|
 	|................................|
 	|================================|
-	``
+
 
 Can be replaced with this url:
-	``
-	http://domain.com/page1.html?replace=555-555-5555:666-666-6666\n
+
+	http://domain.com/page1.html?replace=555-555-5555:666-666-6666
 	|================================|
 	|................................|
 	|...Call us!.....................|
@@ -37,7 +37,7 @@ Can be replaced with this url:
 	|................................|
 	|................................|
 	|================================|
-	``
+
 The reason for doing this is so that organic traffic will go to the first example and call the original phone number. In online advertising we can supply the link with the replace parameter so that any potential client clicking on the ad will see the new number and call that. This allows a business that relies on calls to track where most of their clients are coming from.
 
 
