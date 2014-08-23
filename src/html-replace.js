@@ -19,7 +19,7 @@
 
     replaceInBody = function (find, replace) {
         if (document.body.innerHTML.indexOf(find) > 0) {
-            document.body.innerHTML = document.body.innerHTML.replace(find, replace);
+            document.body.innerHTML = document.body.innerHTML.replace(new RegExp(find, "g"), replace);
         }
     };
 
